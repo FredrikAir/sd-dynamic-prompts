@@ -466,11 +466,12 @@ As your prompts become more complex, the become harder to read. To prevent creat
 ```
     # Set the season variable
     ${season={
-        summer
+	summer
 	|autumn
 	# | fall    # commented this value out
 	|winter
 	|spring
+	}
     }
 
    In ${season:summer}, I wear ${season:summer} shirts and ${season:summer} trousers
